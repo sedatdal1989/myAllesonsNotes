@@ -3,8 +3,8 @@ table, th, td, caption{
     border: 1px solid;
     border-collapse: collapse;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    margin: 1px;
+    
+
     
 }
     
@@ -22,13 +22,13 @@ table{
     text-align: center;
     margin-top: 15px;
 }
-#button-Männlich{
+#button_männlich{
     background-color: cornflowerblue;
     border: 2px solid rgb(73, 132, 241);
     border-radius: 5px 0;
-    text-align: center;
+    
 }
-#button-Frau {         
+#button_frau{         
     background-color: pink;
     border: 2px solid rgb(250, 153, 169);
     border-radius: 5px 0;

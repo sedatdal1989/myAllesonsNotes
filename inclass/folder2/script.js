@@ -2,7 +2,6 @@
 var caption = document.getElementById("caption");
 var button_girls = document.getElementById("button-girls");
 var button_boys = document.getElementById("button-boys");
-
 var even_rows = document.getElementsByClassName("even_rows");
 var odd_rows = document.getElementsByClassName("odd_rows");
 var book = document.getElementsByClassName("book");
