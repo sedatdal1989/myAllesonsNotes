@@ -1,7 +1,7 @@
 
 table, th, td, caption{
     border: 1px solid;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     font-family: Arial, Helvetica, sans-serif;
     
 
