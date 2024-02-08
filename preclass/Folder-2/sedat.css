@@ -1,0 +1,68 @@
+table, th, tr, td{
+    border: 2px solid;
+    
+    /* padding-top: 20px; */
+    /* padding-right: 20px; */
+    /* padding-left: 20px; */
+    /* padding-bottom: 20px; */
+    padding: 20px;
+}
+table{
+    width: 55%;
+}
+th { background-color: blanchedalmond;
+    font-size: 30px;
+    
+}
+table{
+    border-spacing: 20px;  
+     
+
+}
+/* tr:nth-child(even){
+    background-color: red;
+
+}
+tr:nth-child(odd){
+    background-color: blue;
+} */
+/* tr:nth-last-child(4){
+    background-color: brown;
+} */
+/* th:nth-child(even){
+    background-color: red;
+}
+th:nth-child(odd){
+    background-color: blue;
+} */
+/* tr:nth-child(2){
+    background-color: blueviolet;
+} */
+/* td:nth-child(2),
+th:nth-child(2){
+    background-color: brown;
+} */
+/* th:nth-child(4),
+td:nth-child(4){
+    background-color: red;
+} */
+td,th{
+    border-radius: 10px;
+    font-size: 20px; 
+    cursor: pointer;
+}
+tr:hover{
+    background-color: blue;
+}
+div,button{
+    cursor: pointer;
+    padding-block-end: 10px;
+    padding-inline-start: 100px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+table{
+    width: 55%;
+}
