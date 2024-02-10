@@ -1,0 +1,17 @@
+#first_div{
+    height: 200px;
+    background-color: yellow;
+}
+#inner{
+    height: 100px;
+    width: 40%;
+    margin: auto;
+    background-color: blue;
+}
+#first_span{
+    text-decoration: underline;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
