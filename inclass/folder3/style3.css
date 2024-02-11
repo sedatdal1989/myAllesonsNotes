@@ -1,4 +1,4 @@
-#first_div{
+/* #first_div{
     height: 200px;
     background-color: yellow;
 }
@@ -14,4 +14,43 @@
 body{
     margin: 0;
     padding: 0;
+} */
+#main_container{
+    background-color: darkgrey;
+    height: 500px;
+    /* padding: 75px; */
+    /* margin-top: 50px ; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+    
+}
+#div1{
+    background-color: red;
+    /* width: 30%; */
+    /* float: left; */
+    /* display: inline-block; */
+    height: min-content;
+}
+
+#div2{background-color: blue;
+    /* width: 30%; */
+    /* float: left;
+    margin-left: 30px; */
+    /* display: inline-block; */
+    height: min-content;
+
+
+
+}
+
+#div3{background-color: yellow;
+    /* width: 30%; */
+    /* float: left;
+    margin-left:30px; */
+    /* display: inline-block; */
+    height: min-content;
+
+
 }
