@@ -15,42 +15,47 @@ body{
     margin: 0;
     padding: 0;
 } */
+//////////////////////////////////
+
 #main_container{
-    background-color: darkgrey;
+    background-color: rgb(122, 23, 23);
     height: 500px;
     /* padding: 75px; */
-    /* margin-top: 50px ; */
-    /* display: flex; */
-    display: grid;
+    /* margin-top: 50px; */
+    display: flex;
+    /* display: grid; */
     grid-template-columns: 33% 33% 33%;
-    
-    
+
 }
 #div1{
-    background-color: red;
+    background-color:red;
+    width: 30%;
+    /* float: left; */
+    display: inline-block;
+    height: min-content;
+    padding-bottom: 75px;
+    margin-right: 150px;
+
+}
+#div2{
+    background-color: blue;
     /* width: 30%; */
     /* float: left; */
-    /* display: inline-block; */
+    display: inline-block;
+    margin-left: 100px;
     height: min-content;
-}
-
-#div2{background-color: blue;
-    /* width: 30%; */
-    /* float: left;
-    margin-left: 30px; */
-    /* display: inline-block; */
-    height: min-content;
-
+    padding-left: 75px;
 
 
 }
-
-#div3{background-color: yellow;
+#div3{
+    background-color: yellow;
     /* width: 30%; */
-    /* float: left;
-    margin-left:30px; */
-    /* display: inline-block; */
+    /* float: left; */
+    display: inline-block;
+    margin-left: 100px;
     height: min-content;
+    padding-top: 75px;
 
 
 }
