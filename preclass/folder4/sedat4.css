@@ -196,13 +196,13 @@ button{
     background-color:rgb(227, 224, 224);
     border: 1px solid rgba(255, 255, 255, 1);
     padding: 12px;
-    color: aliceblue;
+    color: black;
     font-size: irem;
     border-radius: 15px;
 }
 .search{
     width: 35px;
-    height: 40px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,19 +210,22 @@ button{
     background-color: beige;
     outline: none;
     border: none;
-    margin-right: -8px;
-
-
-
+    
 }
-.mic{
+
+
+ #deneme{
     width: 35px;
     height: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    margin-left: 200px;
+    display: flex;
+   
+
+
 }   
+
+
 
     
 
