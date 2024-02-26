@@ -20,6 +20,10 @@
             align-items: center;
             width: 13%;
         }
+        #simge2:hover{
+            cursor: pointer;
+            background-color:rgb(231, 225, 225);
+        }
 
         #search_div_left a{
             /* background-color: brown; */
@@ -47,7 +51,6 @@
             align-items: center;
         }
 
-        
         #search_div_middle_left{
             display: flex;
             /* width: 20%; */
@@ -125,7 +128,22 @@
             background-color: orange;
             color: white;
         }
-            #simge{
+
+        #olustur:hover{
+            background-color:rgb(231, 225, 225);
+            cursor: pointer;
+        }
+
+        #bildirimler:hover{
+            background-color:rgb(231, 225, 225);
+            cursor: pointer;
+        }
+
+        #user_span:hover{
+            cursor: pointer;
+        }
+
+         #simge{
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -133,26 +151,27 @@
                 height: 100%; */
                 
             }
-            #simge2{
+
+         #simge2{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 
             }
-            #dal1:hover{
+
+        #dal1:hover{
                 background-color: antiquewhite;
                 height: 50px;
                 /* width: 50px; */
             }
 
-            #div_anasayfa{
+        #div_anasayfa{
                 /* display: flex; */
                 height: 150px;
                 /* background-color: aqua; */
                 width: 13vw;
                 height: 150px;
                 border:none
-               
             }
             
 #navbar{
@@ -163,8 +182,8 @@
      justify-content: center;
      align-items: center;
       width: 100%;
-     
  } 
+
 #navbar_inner{
     display: flex;
     /* background-color: red;
@@ -173,6 +192,7 @@
     align-items: center; 
     /* padding-top: 140px; */
 }
+
 button{
     border-radius: 5px;
     display: flex;
@@ -183,24 +203,27 @@ button{
     color: rgb(6, 0, 0);
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    
     }
 
 #baslik{
     background-color: black;
     color: white;
 } 
+
 #div_tümü{
     background-color: chartreuse;
     margin-right: 5px;
 } 
+
 #button_2{ 
     margin-right:px;
 } 
+
  button:hover{
-     background-color:darkgray;
-    cursor: pointer; 
+    background-color:rgb(231, 225, 225);
+     cursor: pointer; 
 }  
+
 #arama{
     display: flex;
     border-radius: 15px;
@@ -209,8 +232,8 @@ button{
     border: 1px solid;
     width: 35%;
     height: 35px;
-
 }
+
 .search_container{
     display: flex;
     align-items: center;
@@ -238,6 +261,7 @@ button{
     font-size: irem;
     border-radius: 15px;
 }
+
 .search{
     width: 35px;
     height: 50px;
@@ -249,15 +273,16 @@ button{
     outline: none;
     border: none; 
 }
+
 #section_left {
     width: 15vw;
-    height: 100vh;
-    background-color: yellow;
+    height: 80vh;
+    /* background-color: yellow; */
   }
 
   #section_left_top{
     height: 28%;
-    background-color: rgb(239, 238, 238);
+    /* background-color: rgb(239, 238, 238); */
   }
 
   .section_left_top_row{
@@ -275,6 +300,7 @@ button{
     justify-content: center;
     align-items: center;
   }
+
   #giris{
     width: 30%;
     display: flex;
@@ -287,47 +313,133 @@ button{
     align-items: center;
   }
 
-
   #section_left_middle{
-    background-color: rgb(239, 238, 238);;
-    height: 25%;
-    
+    /* background-color: rgb(239, 238, 238); */
+    height: 40%;
   }
+
   .section_left_middle_row{
     height: 25%;
     display: flex;
     width: 100%;
     /* border-bottom: 1px solid gray; */
+  }
 
-  }
-  #section_left_ent{
-    background-color: rgb(239, 238, 238);;
-    height: 25%;
+  .section_left_middle_row2{
+    height: 10%;
     display: flex;
+    width: 100%; 
+    /* background-color: rgb(239, 238, 238); */
   }
-  .section_left_ent_row{
-    height: 25%;
-    display: flex;
-    width: 100%;
-  }
-  .icon_div{
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .title_div{
-    display: flex;
-    align-items: center;
-    
 
-  }
-  #kesfet{
-    width: 30%;
+  #section_left_middle_row123{
+    width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+     justify-content:center;
+     align-items: center;
   }
   
+  #section_left_ent{
+    height: 40%;
+    /* background-color: rgb(239, 238, 238); */
+    /* display: flex; */
+   }
 
+.section_left_top_ent{
+    height: 25%;
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    /* border-bottom: 1px solid gray; */
+  }
+
+.section_left_top_row:hover{
+    background-color:rgb(231, 225, 225);
+    cursor: pointer;}
+
+.section_left_middle_row:hover{
+    background-color:rgb(231, 225, 225);
+    cursor: pointer;} 
+
+.section_left_middle_row2:hover{
+    background-color:rgb(231, 225, 225);
+    cursor: pointer;
+}
+
+.section_left_top_ent:hover{
+    background-color:rgb(231, 225, 225);
+    cursor: pointer;
+}
+
+
+
+#section_right{
+    display: flex;
+    
+}
+
+#ana{
+    display: flex;
+    width: 100vw;
+    height: 95vh;
+}
+
+#sedat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 85vw;
+    /* background-color: yellow; */
+}
+
+.karte{
+    width: 30%;
+    height: 45%;
+    /* border: 1px solid red; */
+    /* background-color: blueviolet; */
+}
+
+#goruntu{
+    width: 100%;
+    height: 70%;
+    
+}
+#goruntu iframe{
+    border-radius: 15px;
+}
+#text{
+    width: 100%;
+    height: 30%;
+    /* background-color: brown; */
+    display: flex;
+}
+#icon{
+    height: 100%;
+    width: 15%;
+    /* background-color: blue; */
+}
+#icon_top{
+    height: 60%;
+    width: 100%;
+    background-color: #aaa ;
+}
+#icon_top img{
+    width: 100%;
+    height: 100%;
+
+}
+#icon_botton{
+    height: 40%;
+    width: 100%;
+
+}
+#textmain{
+    height: 100%;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#textmain h4,h5{
+    padding: 0;
+    margin: 0;
+}   
