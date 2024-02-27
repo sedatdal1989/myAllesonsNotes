@@ -181,7 +181,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-      width: 100%;
+     width: 100%;
  } 
 
 #navbar_inner{
@@ -191,10 +191,11 @@
     justify-content: space-between;
     align-items: center; 
     /* padding-top: 140px; */
+    /* border: 1px solid; */
 }
 
 button{
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     margin:10px;
     height: 30px;
@@ -203,6 +204,7 @@ button{
     color: rgb(6, 0, 0);
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
     }
 
 #baslik{
@@ -211,8 +213,8 @@ button{
 } 
 
 #div_tümü{
-    background-color: chartreuse;
-    margin-right: 5px;
+    /* background-color: chartreuse; */
+    /* margin-right: 5px; */
 } 
 
 #button_2{ 
@@ -221,7 +223,8 @@ button{
 
  button:hover{
     background-color:rgb(231, 225, 225);
-     cursor: pointer; 
+    cursor: pointer; 
+    /* border-radius: 15px; */
 }  
 
 #arama{
@@ -317,7 +320,7 @@ button{
     /* background-color: rgb(239, 238, 238); */
     height: 40%;
   }
-
+ 
   .section_left_middle_row{
     height: 25%;
     display: flex;
@@ -355,20 +358,25 @@ button{
 
 .section_left_top_row:hover{
     background-color:rgb(231, 225, 225);
-    cursor: pointer;}
+    cursor: pointer;
+    border-radius: 15px;
+}
 
 .section_left_middle_row:hover{
     background-color:rgb(231, 225, 225);
-    cursor: pointer;} 
+    cursor: pointer;
+    border-radius: 15px;} 
 
 .section_left_middle_row2:hover{
     background-color:rgb(231, 225, 225);
     cursor: pointer;
+    border-radius: 15px;
 }
 
 .section_left_top_ent:hover{
     background-color:rgb(231, 225, 225);
     cursor: pointer;
+    border-radius: 15px;
 }
 
 
@@ -412,6 +420,7 @@ button{
     height: 30%;
     /* background-color: brown; */
     display: flex;
+    
 }
 #icon{
     height: 100%;
@@ -437,9 +446,9 @@ button{
     height: 100%;
     width: 85%;
     font-family: Arial, Helvetica, sans-serif;
-   
 }
-#textmain h4,h5{
+#textmain h4, h5{
     padding: 0;
     margin: 0;
+    
 }   
