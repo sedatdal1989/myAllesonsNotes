@@ -6,7 +6,8 @@
     <title>Forms</title>
 </head>
 <body>
-<form action="form.html" method="get" target="_blank" style="border: 1px solid;">
+<form action="result.html" method="get" target="_blank" style="border: 1px solid;"
+autocomplete="off" novalidate>
 
     <label for="name_input">Name</label><br>
     <input type="text"id="name_input"name="name"placeholder="Please enter your name" required>
@@ -33,8 +34,30 @@
     <input type="radio" name="cinsiyet" id="input_woman">
     <br><br>
     <label for="input_checkbox">Kullanici Sözlesmesini Okudum Onayliyorum</label>
-    <input type="checkbox" name="" id="input_checkbox" required>
+    <input type="checkbox" name="" id="input_checkbox" required checked>
     <br><br>
+
+
+
+
+     <label for="cars"> Please select an auto</label>
+    <select name="cars" id="cars" size="4">
+        <option value=""></option>
+        <option value="Mercedes" selected>Mercedes</option>
+        <option value="Audi">Audi</option>
+        <option value="TOGG">TOGG</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Mercedes" selected>Mercedes</option>
+        <option value="Audi">Audi</option>
+        <option value="TOGG">TOGG</option>
+        <option value="Volvo">Volvo</option>
+    </select> <br><br>
+
+
+
+
+
+
     <input type="submit" value="Send">
 
 </form>
