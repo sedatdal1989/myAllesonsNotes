@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#form{
+    display: flex;
+    background-color: bisque;
+    width: 50%;
+    height: 70%;
+}
+#kayit{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    
+}
+.kayit_row{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    width: 100%;
+    height: 10%;
+}
+#kullanici_adi{
+    /* width: 100%; */
+    /* height: 3%; */
+    /* background-color: brown; */
+    /* display: flex; */
+    
+}
+.ilk{
+    width:25%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    margin-left: 10px;
+    /* background-color: brown; */
+}
+/* #Adi{
+    width: 92%;
+    height: 3%;
+    display: flex;
+
+} */
+
+
+/* #soyadi{
+    width: 92%;
+    height: 3%;
+    
+    display: flex;
+} */
+/* #email{
+    width: 100%;
+    height: 3%;
+    
+    display: flex;
+} */
+/* #sifre{
+    width: 92%;
+    height: 3%;
+    
+    display: flex;
+
+} */
+/* #sifre_tekrar{
+    width: 92%;
+    height: 3%;
+    
+    display: flex;
+
+}   */
+
+.inputs{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    
+}

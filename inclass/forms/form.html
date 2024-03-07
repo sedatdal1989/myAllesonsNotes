@@ -6,41 +6,45 @@
     <title>Forms</title>
 </head>
 <body>
-<form action="result.html" method="get" target="_blank" style="border: 1px solid;"
-autocomplete="off" novalidate>
+
+<form action="result.html"
+      method="get" target="_blank" 
+      style="border: 1px solid;"
+      autocomplete="off" 
+      novalidate>
 
     <label for="name_input">Name</label><br>
     <input type="text"id="name_input"name="name"placeholder="Please enter your name" required>
     <br><br>
     <label for="surname_input">Surname</label><br>
-    <input type="text" id="surname_input" placeholder="Please enter your sorname" required>
+    <input type="text" id="surname_input" name="Surname" placeholder="Please enter your sorname" required>
     <br><br>
     <label for="input_email">Email</label><br>
-    <input type="email" name="" id="input_email" placeholder="Please enter your email" required>
+    <input type="email" name="" id="input_email" name="Email" placeholder="Please enter your email" required>
     <br><br>
     <label for="input_password">Password</label><br>
-    <input type="password" name="" id="input_password" placeholder="Please enter your password">
+    <input type="password" name="Password" id="input_password" placeholder="Please enter your password">
     <br><br>
     <label for="input_date">Birthday</label><br>
-    <input type="date" name="" id="input_date">
+    <input type="date" name="Birthday" id="input_date">
     <br><br>
     <label for="input_color">Please select best color</label><br>
-    <input type="color" name="" id="input_color">
+    <input type="color" name="color" id="input_color">
     <br><br>
     <p>Cinsiyet</p>
     <label for="input_man">Man</label>
-    <input type="radio" name="" id="input_man">
+    <input type="radio" name="cinsiyet" id="input_man">
     <label for="input_woman">Woman</label>
     <input type="radio" name="cinsiyet" id="input_woman">
     <br><br>
     <label for="input_checkbox">Kullanici Sözlesmesini Okudum Onayliyorum</label>
-    <input type="checkbox" name="" id="input_checkbox" required checked>
+    <input type="checkbox" name="Onay" id="input_checkbox" required checked>
     <br><br>
 
 
 
 
-     <label for="cars"> Please select an auto</label>
+    <label for="cars"> Please select an auto</label>
     <select name="cars" id="cars" size="4">
         <option value=""></option>
         <option value="Mercedes" selected>Mercedes</option>
