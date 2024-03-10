@@ -12,75 +12,40 @@ main{
 
 }
 #form{
-    display: flex;
-    background-color: bisque;
+    /* display: flex; */
+    background-color: orange;
     width: 50%;
-    height: 70%;
+    height:100%;
 }
-#kayit{
-    width: 100%;
-    height: 50%;
-    background-color: aqua;
+
+#fieldset1{
+    width: 96%;
+    height: 28%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1.5px solid white;
+
     
 }
 .kayit_row{
     display: flex;
     align-items: center;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 100%;
     height: 10%;
+    /* border: 1px solid; */
 }
-#kullanici_adi{
-    /* width: 100%; */
-    /* height: 3%; */
-    /* background-color: brown; */
-    /* display: flex; */
-    
-}
+
 .ilk{
     width:25%;
     height: 100%;
     display: flex;
-    
     align-items: center;
     margin-left: 10px;
-    /* background-color: brown; */
+    
 }
-/* #Adi{
-    width: 92%;
-    height: 3%;
-    display: flex;
-
-} */
-
-
-/* #soyadi{
-    width: 92%;
-    height: 3%;
-    
-    display: flex;
-} */
-/* #email{
-    width: 100%;
-    height: 3%;
-    
-    display: flex;
-} */
-/* #sifre{
-    width: 92%;
-    height: 3%;
-    
-    display: flex;
-
-} */
-/* #sifre_tekrar{
-    width: 92%;
-    height: 3%;
-    
-    display: flex;
-
-}   */
-
 .inputs{
     width: 35%;
     height: 90%;
@@ -90,3 +55,76 @@ main{
     border: none;
     
 }
+
+#fieldset2{
+    width: 96%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    border: 1.5px solid white;
+
+}
+.özel_row{
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid; */
+    align-items: center;
+    
+
+}
+
+.ikinci{
+    width:25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.inputs_middel{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: none;
+
+}
+#fieldset3{
+    width: 96%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    border: 1.5px solid white;
+
+}
+.row_end{
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid; */
+
+}
+#Send{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: end;
+    
+    
+}
+#send2{
+    color: blue;
+    font-size: large;
+    margin: 3px;
+    font-weight: 200px;
+}
+

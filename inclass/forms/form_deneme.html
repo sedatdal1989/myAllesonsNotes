@@ -9,42 +9,148 @@
 <body>
    <main>
      <form action="result.html" method="get" id="form">
-        <div id="kayit">
+         
+         <fieldset id="fieldset1">
+            <legend> <strong>Record</strong></legend>
             <div id="kullanici_adi" class="kayit_row">
-                 <p class="ilk">Kullanici Adi:</p> 
-                 <input type="text" id="input_name"  class="inputs">
-                 <input type="text" placeholder="Kullanilabilir mi?" class="inputs" style="margin-left: 5px;"><br>
+                 <p class="ilk">User name:</p> 
+                 <label for="input_name"></label>
+                 <input type="text" name="User name" class="inputs">
+                 <p style="margin-left: 5px; background-color:rgba(235, 230, 230, 0.961);">Is it available?</p><br>
                 
-            </div><br>
+            </div>
 
             <div id="Adi" class="kayit_row">
-                <p class="ilk">Adi:</p>
-                <input type="text" class="inputs">
-            </div><br>
+                <p class="ilk">First name:</p>
+                <input type="text" name="First name" class="inputs">
+            </div>
 
             <div id="soyadi" class="kayit_row">
-                <p class="ilk" >Soyadi:</p>
-                <input type="text" class="inputs">
-            </div><br>
+                <p class="ilk" >Last name:</p>
+                <input type="text" name="Last name" class="inputs">
+            </div>
 
             <div id="email" class="kayit_row">
-              <p class="ilk"> E mail:</p> 
-              <input type="text" class="inputs">
-              <input type="text" placeholder="Kullanilabilir mi?" class="inputs" style="margin-left: 5px;"><br>
-            </div><br>
+              <p class="ilk">E-mail address:</p> 
+              <input type="text" name="E-mail" class="inputs">
+              <p style="margin-left: 5px; background-color:rgba(235, 230, 230, 0.961);">Is it available?</p><br>
+            </div>
 
             <div id="sifre" class="kayit_row">
-                <p class="ilk">Sifrenizi giriniz:</p>
-                <input type="text" class="inputs">
-            </div><br>
-
-            <div id="sifre_tekrar" class="kayit_row">
-                <p class="ilk">Sifrenizi tekrar giriniz:</p>
-                <input type="text" class="inputs">
+                <p class="ilk">Your password:</p>
+                <input type="text" name="Password" class="inputs">
             </div>
-        </div>
-        <div id="form_middle"></div>
-        <div id="form_end"></div>
+
+             <div id="sifre_tekrar" class="kayit_row">
+                <p class="ilk">Repeat Your Password:</p>
+                <input type="text" name="Repeat Password" class="inputs">
+             </div>
+             </fieldset>
+           
+        <!-- ############################form_top################## -->
+
+
+             
+              <fieldset id="fieldset2">
+                <legend> <strong>Private Information</strong></legend>
+                <div class="özel_row">
+                    <p class="ikinci">Date of Brith Day month:</p>
+                    <label for="Birthday"></label>
+                    <input type="date" name="Birthday">
+                </div>
+
+                <div class="özel_row">
+                    <p class="ikinci">Language:</p>
+                    <label for="dil"></label>
+                    <select name="Language">
+                        <option value="Deutsch">Deutsch</option>
+                        <option value="ENGLISCH">Englisch</option>
+                        <option value="Türkisch">Türkisch</option>
+                    </select>
+                </div>
+
+                <div class="özel_row">
+                    <p class="ikinci">Website(if availabe):</p>
+                    <label for="web"></label>
+                    <input type="text" name="Website" class="inputs_middel">
+                </div>
+                <div class="özel_row">
+                    <p class="ikinci">Location:</p>
+                    <label for="konum"></label>
+                    <input type="text" name="Location" class="inputs_middel">
+                </div>
+
+                <div class="özel_row">
+                    <p class="ikinci">Job:</p>
+                    <label for="meslek"></label>
+                    <input type="text" name="Job" class="inputs_middel">
+                </div>
+                <div class="özel_row">
+                    <p class="ikinci">Your Interests:</p>
+                    <label for="dergi">Magazine:</label>
+                    <input type="checkbox" name="Magazin"><br> 
+                    <label for="futbol">Football:</label> 
+                    <input type="checkbox" name="Football"><br>
+                    <label for="folklor">Foklore:</label>
+                    <input type="checkbox" name="Folklore"><br>
+                    <label for="gezi">Travel:</label>
+                    <input type="checkbox" name="Travel"><br>
+                    <label for="spor">Sport:</label>
+                    <input type="checkbox" name="Sport">
+
+                </div>
+              </fieldset>
+             
+
+
+<!-- ########################################form_middle##### -->
+
+
+
+
+         
+            <fieldset id="fieldset3">
+                  <legend> <strong>Private Information</strong></legend>
+                   <div class="row_end">
+                    <label for="aktive"></label>
+                    <input type="radio" name="AKTIVE ET" id="aktive">
+                    <p>aktive et ve kullan:</p>
+                   </div>
+
+                   <div class="row_end">
+                    <label for="e-mail"></label>
+                    <input type="radio" name="E-mail">
+                    <p>bu e- mail adresini kullan</p>
+                   </div>
+
+                    <div class="row_end">
+                    <label for="sport"></label>
+                    <input type="checkbox" name="yeni spor">
+                    <p>yeni spor oyunlari edinmek istiyorum</p>
+                    </div>
+
+                    <div class="row_end">
+                    <label for="internet"></label>
+                    <input type="checkbox" name="bu site onay">
+                    <p>internete giris sayfam burasi olsun</p>
+                   </div>
+
+                   <div class="row_end">
+                    <label for="magazin"></label>
+                    <input type="checkbox" name="onay" >
+                    <p>magazin bultenini okudum ve kabul ediyorum</p>
+                   </div>
+                   
+            </fieldset>
+            <div id="Send">
+                <input type="submit" value="Send" id="send2" >
+            </div>
+            
+
+
+
+            
+        
       </form>
     </main>
 
