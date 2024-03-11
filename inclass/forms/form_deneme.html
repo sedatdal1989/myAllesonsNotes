@@ -8,42 +8,42 @@
 </head>
 <body>
    <main>
-     <form action="result.html" method="get" id="form">
+      <form action="result.html" method="get" id="form">
          
          <fieldset id="fieldset1">
             <legend> <strong>Record</strong></legend>
             <div id="kullanici_adi" class="kayit_row">
                  <p class="ilk">User name:</p> 
                  <label for="input_name"></label>
-                 <input type="text" name="User name" class="inputs">
+                 <input type="text" name="User name" class="inputs" required checked>
                  <p style="margin-left: 5px; background-color:rgba(235, 230, 230, 0.961);">Is it available?</p><br>
                 
             </div>
 
             <div id="Adi" class="kayit_row">
                 <p class="ilk">First name:</p>
-                <input type="text" name="First name" class="inputs">
+                <input type="text" name="First name" class="inputs" required>
             </div>
 
             <div id="soyadi" class="kayit_row">
                 <p class="ilk" >Last name:</p>
-                <input type="text" name="Last name" class="inputs">
+                <input type="text" name="Last name" class="inputs" required>
             </div>
 
             <div id="email" class="kayit_row">
               <p class="ilk">E-mail address:</p> 
-              <input type="text" name="E-mail" class="inputs">
+              <input type="text" name="E-mail" class="inputs" required>
               <p style="margin-left: 5px; background-color:rgba(235, 230, 230, 0.961);">Is it available?</p><br>
             </div>
 
             <div id="sifre" class="kayit_row">
                 <p class="ilk">Your password:</p>
-                <input type="text" name="Password" class="inputs">
+                <input type="text" name="Password" class="inputs" required>
             </div>
 
              <div id="sifre_tekrar" class="kayit_row">
                 <p class="ilk">Repeat Your Password:</p>
-                <input type="text" name="Repeat Password" class="inputs">
+                <input type="text" name="Repeat Password" class="inputs" required>
              </div>
              </fieldset>
            
@@ -56,13 +56,13 @@
                 <div class="özel_row">
                     <p class="ikinci">Date of Brith Day month:</p>
                     <label for="Birthday"></label>
-                    <input type="date" name="Birthday">
+                    <input type="date" name="Birthday" required>
                 </div>
 
                 <div class="özel_row">
                     <p class="ikinci">Language:</p>
                     <label for="dil"></label>
-                    <select name="Language">
+                    <select name="Language" required>
                         <option value="Deutsch">Deutsch</option>
                         <option value="ENGLISCH">Englisch</option>
                         <option value="Türkisch">Türkisch</option>
@@ -110,41 +110,77 @@
 
          
             <fieldset id="fieldset3">
-                  <legend> <strong>Private Information</strong></legend>
+                  <legend style="margin: auto;"><strong>Private Information</strong></legend>
                    <div class="row_end">
                     <label for="aktive"></label>
-                    <input type="radio" name="AKTIVE ET" id="aktive">
-                    <p>aktive et ve kullan:</p>
+                    <input type="radio" name="AKTIVE ET" id="aktive" >
+                    <p>Activate and use:</p>
                    </div>
 
                    <div class="row_end">
                     <label for="e-mail"></label>
                     <input type="radio" name="E-mail">
-                    <p>bu e- mail adresini kullan</p>
+                    <p> Use this email address</p>
                    </div>
 
                     <div class="row_end">
                     <label for="sport"></label>
                     <input type="checkbox" name="yeni spor">
-                    <p>yeni spor oyunlari edinmek istiyorum</p>
+                    <p>I wan to buy new sports games</p>
                     </div>
 
                     <div class="row_end">
                     <label for="internet"></label>
                     <input type="checkbox" name="bu site onay">
-                    <p>internete giris sayfam burasi olsun</p>
+                    <p>Let this be my home page to the internet</p>
                    </div>
 
                    <div class="row_end">
                     <label for="magazin"></label>
                     <input type="checkbox" name="onay" >
-                    <p>magazin bultenini okudum ve kabul ediyorum</p>
+                    <p>I have read and accept the magazine newsletter</p>
                    </div>
                    
             </fieldset>
+
+        <fieldset id="fieldset4">
+            <legend> <strong>Select</strong></legend>
+            <input type="text" list="datalist" 
+            name="datalist" placeholder="Please enter a Cantry" 
+            id="datalist_input">
+            <datalist id="datalist">
+              <option value="Deutschland">Deutschland</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Italy">Italy</option>
+              <option value="Gaziantep">Gaziantep</option>
+            </datalist>
+
+            <label for="cars2">Cars2</label>
+            <select name="cars2" id="cars2">
+             <optgroup label="Sedan" style="background-color: aqua;">
+              <option value="" style="background-color: white;">Mercedes  E 30</option>
+              <option value="" style="background-color: white;">Audi A4</option>
+              <option value="" style="background-color: white;"> Volvo S60</option>
+              <option value="" style="background-color: white;">VW Passat</option>
+             </optgroup>
+            
+             <optgroup label="Hatchback">
+              <option value="">Mercedes  E 30</option>
+              <option value="">Audi A4</option>
+              <option value=""> Volvo S60</option>
+              <option value="">VW Passat</option>
+             </optgroup>
+            </select>
+        </fieldset>
+       
+
+            
+        
             <div id="Send">
+                <input type="reset" value="Reset" id="reset">
                 <input type="submit" value="Send" id="send2" >
             </div>
+            
             
 
 

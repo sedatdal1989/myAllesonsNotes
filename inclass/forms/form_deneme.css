@@ -20,7 +20,7 @@ main{
 
 #fieldset1{
     width: 96%;
-    height: 28%;
+    height: 22%;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@ main{
 
 #fieldset2{
     width: 96%;
-    height: 30%;
+    height: 22%;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ main{
 }
 #fieldset3{
     width: 96%;
-    height: 30%;
+    height: 22%;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -117,7 +117,7 @@ main{
 #Send{
     display: flex;
     /* background-color: brown; */
-    justify-content: end;
+    justify-content: space-between;
     
     
 }
@@ -126,5 +126,38 @@ main{
     font-size: large;
     margin: 3px;
     font-weight: 200px;
+   
+    
+    
+}
+#fieldset4{
+    width: 96%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid white;
+
+}
+#datalist{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid; */
+
+}
+#datalist_input{
+    height: 10%;
+    width: 30%;
+}
+#cars2{
+    width: 30%;
+}
+#reset{
+    color: blue;
+    font-size: large;
+    margin: 3px;
+    font-weight: 200px;
+   
 }
 
