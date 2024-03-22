@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    width: 50%;
+    height: 100%;
+    background-color:yellow;
+}
+#baslik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+#first_name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#last_name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#gender{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#Age{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
