@@ -33,6 +33,7 @@ body{
     /* background-color: red; */
     display: flex;
     flex-direction: column;
+    
    
 }
 
@@ -40,6 +41,9 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+  
+
 }
 
 .ana_text{
@@ -47,12 +51,26 @@ body{
     width: 20%;
     height: 100%;
     /* background-color: blue; */
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     color: red;
     font-size: large;
-    font-weight: 300;
+    
 }
+.input_div{
+    height: 100%;
+}
+
+.input{
+    /* background-color: blue; */
+    width: 100%;
+    border: 2px solid rgb(214, 125, 125);
+    height: 40%;
+    
+   
+}
+
+
 
 
 #kayit_2{
@@ -66,8 +84,9 @@ body{
     margin-left: 75px;
     width: 100%;
     color:black;
- 
+
 }
+
 #Send{
     display: flex;
     justify-content: space-evenly;
