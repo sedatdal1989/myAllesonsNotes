@@ -11,16 +11,21 @@
         <form action="" id="form">
             <h1 id="baslik">STUDENT REGISTRATION FORM</h1>
             <div id="gövde">
-               <div class="kayit_div">
-                <p class="text">First Name</p>
-                <label for="first_name"></label>
-                <input type="text" name="first_name" placeholder="Enter First Name" class="input" size="50">
-               </div> 
+                <div class="kayit_div">
+                 <div class="ana_text"><p class="text">First Name</p></div>
+                    <div>
+                     <label for="first_name"></label>
+                     <input type="text" name="first_name"
+                     placeholder="Enter First Name" 
+                      size="50">
+                    </div> 
+                </div> 
                
                <div class="kayit_div">
-                <p class="text">Last Name</p>
-                    <label for="last_name"></label>
-                    <input type="text" name="last_name" placeholder="Enter Last Name" class="input" size="50">
+                    <div class="ana_text"><p class="text">Last Name</p></div>
+                    <div><label for="last_name"></label>
+                        <input type="text" name="last_name"
+                         placeholder="Enter Last Name" size="50"></div>
                 
                </div>
 
@@ -33,49 +38,62 @@
                 </div>
 
                 <div class="kayit_div">
-                <p class="text">Age</p>
-                <label for="age"></label>
-                <input type="text" name="age" placeholder="Enter your age" class="input" size="50">
+                <div class="ana_text"><p class="text">Age</p></div>
+                <div><label for="age"></label>
+                    <input type="text" name="age" placeholder="Enter your age" size="50"></div>
                 </div>
                 
                 <div class="kayit_div">
-                <p class="text">Date of Brith</p>
-                <label for="date"></label>
-                <input type="date" name="date" id="date" size="50">
+                <div class="ana_text"><p>Date of Brith</p></div>
+                 <div id="tarih" style="width: 49%;">
+                    <label for="date"></label>
+                    <input type="date" name="date" id="date" style="width: 99%;">
+                 </div>
                 </div>
 
                 <div class="kayit_div">
-                <p class="text">Email Address</p>
-                <label for="email"></label>
-                <input type="email" name="email" class="input" size="50">
+                <div class="ana_text"><p class="text">Email Address</p></div>
+                 <div>
+                 <label for="email"></label>
+                 <input type="email" name="email" placeholder="Enter your email" size="50">
+                 </div>
                 </div>
 
                 <div class="kayit_div">
-                <p class="text">Password</p>
-                <label for="password"></label>
-                <input type="password" name="password" class="input" size="50">
+                <div class="ana_text"><p class="text">Password</p></div>
+                 <div>
+                    <label for="password"></label>
+                    <input type="password" name="password" placeholder="Enter your password min 8 character"size="50">
+                 </div>
                 </div>
                 
                 <div class="kayit_div"> 
-                <p class="text"> Confirm Password</p>
-                <label for="confirm"></label>
-                <input type="password" name="confirm" class="input" size="50">
+                <div class="ana_text"><p class="text"> Confirm Password</p></div>
+                 <div>
+                    <label for="confirm"></label>
+                    <input type="password" name="confirm" placeholder=" Confirm Password"  size="50">
+                 </div>
                 </div>
                 
                 <div class="kayit_div">
-                <p class="text">Telefon no bak</p>
-                 <label for="telefon"></label>
-                 <select name="Alan_kodu" required>
+                <div class="ana_text">
+                    <p>Phone Number</p>
+                </div>
+                 <div>
+                    <label for="telefon"></label>
+                    <select name="Alan_kodu" required>
                     <option value="Deutschland">+49</option>
                     <option value="Greece">+30</option>
                     <option value="Türkei">+90</option>
-                </select>
-                <input type="tel" name="tel" class="input" maxlength="8" minlength="8" pattern="[0-9]3-[0-9]2-[0-9]3"
-                placeholder="789-25-123">
+                   </select>
+                <input type="tel" name="tel"  maxlength="8" minlength="8" pattern="[0-9]3-[0-9]2-[0-9]3"
+                placeholder="Enter your phone number" size="44">
+                 </div>
                 </div>
                 
                 <div class="kayit_div">
-                <p class="text">Address</p>
+                <div class="ana_text"><p>Address</p></div>
+                <div>
                 <label for="address"></label>
                 <textarea 
                 name="textarea" 
@@ -85,31 +103,37 @@
                 placeholder="Enter your address"
                 minlength="10"
                 maxlength="30"
-                autofocus class="input"></textarea>
+                autofocus ></textarea>
+                </div>
                 </div>
                 
                 <div class="kayit_div">
-                    <p class="text">State</p>
+                    <div class="ana_text"><p>State</p></div>
+                    <div>
                     <input type="text" list="state"
-                     name="datalist" placeholder="--Select your state--"
-                      class="input" size="50">
+                      name="datalist" placeholder="--Select your state--"
+                       size="50">
                     <datalist id="state">
                     <option value="Istanbul">Istanbul</option>
                     <option value="Hamburg">Hamburg</option>
                     <option value="Neumunster" >Neumunster</option>
                     </datalist>
+                    </div>
                 </div>
                 
                 <div class="kayit_div">
-                    <p class="text">Pin Code</p>
-                    <label for="pin_code"></label>
-                    <input type="text" name="pin_code" 
-                    placeholder="Enter your pin cod" class="input" size="50">
+                    <div class="ana_text"><p class="text">Pin Code</p></div>
+                    <div><label for="pin_code"></label>
+                        <input type="text" name="pin_code" 
+                        placeholder="Enter your pin cod"  size="50">
+                    </div>
                 </div>
                 
                 
                 <div class="kayit_div">
-                    <p class="text">Hobbies</p>
+                    <div class="ana_text">
+                        <p>Hobbies</p>
+                    </div>
                     <div id="kayit_2">
                         <label for="müzik">Müzik</label>
                         <input type="checkbox" name="Müzik"> 
@@ -119,23 +143,27 @@
                         <input type="checkbox" name="sports">
                         <label for="gezi">Travel</label>
                         <input type="checkbox" name="Travel">
+                        <label for="Tennis">Tennis</label>
+                        <input type="checkbox" name="Tenis">
                     </div>
                     
                 </div> 
 
                 <div class="kayit_div">
-                    <p class="text">Upload Photo</p>
-                    <span style="color: red;">*Max size 100 kb.</span>
-                    <input type="file" name="Photo"   multiple>
+                    <div class="ana_text"><p>Upload Photo</p></div>
+                    <div><span style="color: red;">*Max size 100 kb.</span>
+                        <input type="file" name="Photo" multiple>
+                    </div>
                 </div>
-                
-                <div class="kayit_div">
-                    <input type="checkbox" name="Onay" class="text" required checked>
-                    <label for="text" >I hereby declare that the above information
-                     provided is true and correct.</label>
-                </div>
-                
 
+
+                <div class="kayit_div">
+
+                   <div id="onay"><input type="checkbox" name="Onay" id="input_checkbox"  checked>
+                    <label for="input_checkbox" >I hereby declare that the above information provided is true and correct.</label>
+                </div> 
+                    
+                </div>
 
             </div>
             
