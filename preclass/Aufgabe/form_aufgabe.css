@@ -5,8 +5,8 @@ body{
 
 #main{
     width: 100vw;
-    height: 100vh;
-    background-color: aqua;
+    height:100%;
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,37 +15,113 @@ body{
     width: 50%;
     height: 100%;
     background-color:yellow;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+   
+   
 }
 #baslik{
     display: flex;
     justify-content: center;
-    align-items: center;
     color: red;
 }
-#first_name{
+#gövde{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-#last_name{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
 
-}
-#gender{
-    display: flex;
-    justify-content: space-evenly;
-    /* flex-direction: column; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    align-items: center;
+   
 
-}
-#Age{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     
+}
 
+.kayit_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+
+   
+}
+.input{
+    width: 40%; 
+    height: 30%;
+    display: flex;
+    justify-content: ;
+    align-content: center;
+    border: 1px solid red;
+  
+}
+
+.text{
+    color: red;
+    font-size: large;
+    font-weight: 200;
+    height:20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: left;
+}
+/* #özel_div{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+} */
+#date{
+    width: 40%; 
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center; */
+    border: 1px solid red;
+  
+    
+}
+/* #kayit{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+#kayit_2{
+    color: red;
+    font-size: large;
+    font-weight: 200;
+ 
+
+}
+
+/* #son{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 50%;
+  
+    
+} */
+
+
+#Send{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+    height:35px;
+   
+    
+}
+.gönder{
+    height: 100%;
+    width: 30%;
+    color: white;
+    background-color:deeppink;
+    border: none;
+    font-size: medium;
 }
