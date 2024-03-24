@@ -50,7 +50,7 @@ body{
     display: flex;
     width: 20%;
     height: 100%;
-    /* background-color: blue; */
+    /* background-color: red; */
     justify-content:space-between;
     align-items: center;
     color: red;
@@ -59,33 +59,82 @@ body{
 }
 .input_div{
     height: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    width: 60%;
 }
 
 .input{
     /* background-color: blue; */
-    width: 100%;
+    width: 96%;
     border: 2px solid rgb(214, 125, 125);
     height: 40%;
     
    
 }
+#input_div_radio{
+    display: flex;
+    justify-content: center;
 
+}
+#input_div_radio div{
+    margin-left: 20px;
+}
+#date{
+    height: 55%;
+}
+#input_div_telefon div{
+    width: 17%;
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    align-items: center;
 
+}
+#input_div_telefon div select{
+    height: 48%;
+}
+#input_div_telefon input{
+    width: 79%;
+    height: 40%;
+}
+#kayit_div_address{
+    width: 60%;
+}
+#kayit_div_address textarea{
+    width: 97%;
+    
+
+}
 
 
 #kayit_2{
     color: red;
     font-size: large;
     font-weight: 200;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
 
+}
+#max{
+    width: 60%;
+}
+#max input{
+    width: 85;
+}
+#max span{
+    margin-right: 15px;
+    width: 5%;
 }
 #onay{
     display: flex;
     margin-left: 75px;
     width: 100%;
     color:black;
-
 }
+
 
 #Send{
     display: flex;
