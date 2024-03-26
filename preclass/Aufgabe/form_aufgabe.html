@@ -8,26 +8,28 @@
 </head>
 <body>
     <main id="main">
-        <form action="" id="form">
+        <form action="result2.html" method="get" id="form" target="_blank">
             <h1 id="baslik">STUDENT REGISTRATION FORM</h1>
+
             <div id="gövde">
                 <div class="kayit_div">
-                    <div class="ana_text"><p>First Name</p></div>
-
+                    <div class="ana_text">
+                        <p>First Name</p>
+                    </div>
                     <div class="input_div">
                       <label for="first_name"></label>
-                      <input type="text" name="first_name"placeholder="Enter First Name" class="input">
+                      <input type="text" name="first_name"placeholder="Enter First Name" class="input" required >
                     </div> 
-
                 </div> 
                
                 <div class="kayit_div">
-                    <div class="ana_text"><p>Last Name</p></div>
-
+                    <div class="ana_text">
+                        <p>Last Name</p>
+                    </div>
                     <div class="input_div">
                         <label for="last_name"></label>
                         <input type="text" name="last_name"
-                         placeholder="Enter Last Name" size="50" class="input" >
+                         placeholder="Enter Last Name" size="50" class="input" required>
                     </div>
                 </div>
 
@@ -35,16 +37,17 @@
                     <div class="ana_text">
                         <p>Gender</p>
                     </div>
+
                     <div  class="input_div" id="input_div_radio">
                         <div>
                             <label for="Male">Male</label>
                             <input type="radio" name="Cinsiyet" id="Male">
-                            
                         </div>
-                            <div >
-                                <label for="Fermale">Fermale</label>
-                                <input type="radio" name="Cinsiyet" id="Fermale">
-                            </div>
+
+                        <div >
+                            <label for="Fermale">Fermale</label>
+                            <input type="radio" name="Cinsiyet" id="Fermale">
+                        </div>
                     </div>
                 </div>
 
@@ -62,7 +65,6 @@
                     <div class="ana_text">
                         <p>Date of Brith</p>
                     </div>
-
                     <div class="input_div">
                       <label for="date"></label>
                       <input type="date" name="date" id="date"  class="input">
@@ -73,7 +75,6 @@
                     <div class="ana_text">
                         <p class="text">Email Address</p>
                     </div>
-
                     <div class="input_div">
                      <label for="email"></label>
                      <input type="email" name="email" placeholder="Enter your email"  class="input">
@@ -105,7 +106,6 @@
                      <div class="ana_text">
                         <p>Phone Number</p>
                      </div>
-
                     <div class="input_div"  id="input_div_telefon">
                         <div>
                          <label for="telefon"></label>
@@ -123,8 +123,7 @@
                 <div class="kayit_div">
                     <div class="ana_text">
                         <p>Address</p>
-                    </div>
-                
+                    </div>    
                     <div id="kayit_div_address">
                         <label for="address"></label>
                         <textarea 
@@ -146,17 +145,21 @@
                     <div class="input_div">
                        <input type="text" list="state"
                        name="datalist" placeholder="--Select your state--"
-                       size="50" class="input">
+                        class="input">
+
                         <datalist id="state">
                             <option value="Istanbul">Istanbul</option>
                             <option value="Hamburg">Hamburg</option>
                             <option value="Neumunster" >Neumunster</option>
                         </datalist>
                     </div>
+
                 </div>
                 
                 <div class="kayit_div">
-                    <div class="ana_text"><p class="text">Pin Code</p></div>
+                    <div class="ana_text">
+                        <p class="text">Pin Code</p>
+                    </div>
                     <div class="input_div"><label for="pin_code"></label>
                         <input type="text" name="pin_code" 
                         placeholder="Enter your pin cod"   class="input">
@@ -179,8 +182,7 @@
                         <input type="checkbox" name="Travel">
                         <label for="Tennis">Tennis</label>
                         <input type="checkbox" name="Tenis">
-                    </div>
-                    
+                    </div>                 
                 </div> 
 
                 <div class="kayit_div">
@@ -200,7 +202,6 @@
                       <label for="input_checkbox">I hereby declare that the above information provided is true and correct.</label>
                      </div> 
                 </div>
-
             </div>
             
 
