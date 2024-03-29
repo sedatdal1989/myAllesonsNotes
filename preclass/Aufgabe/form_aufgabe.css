@@ -153,4 +153,7 @@ body{
     border: none;
     font-size: medium;
 } 
+textarea{
+    border-color: rgb(214, 125, 125);
+}
 
